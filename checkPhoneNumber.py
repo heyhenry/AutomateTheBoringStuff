@@ -17,12 +17,13 @@ def checkPhoneNumber(text):
             return False
     return True
 
-print("")
+print('Phone Number Checking Sytstem:')
+print('')
 print('Is number: 111-222-3333 valid?')
 print(checkPhoneNumber('111-222-3333'))
 print('Is number: 2222-123-2221 valid?')
 print(checkPhoneNumber('2222-123-2221'))
-print("")
+print('')
 message = 'My personal number is 041-921-1011 but you can also reach me at my office on 042-231-9821.'
 for i in range(len(message)):
     chunk = message[i:i+12]
